@@ -1,0 +1,4 @@
+https://plaqueminesassessor.azurewebsites.net/Details?parcelNumber=1622237/0
+https://plaqueminesassessor.azurewebsites.net/Details?parcelNumber=1883352/0
+https://plaqueminesassessor.azurewebsites.net/Details?parcelNumber=2624897/0
+https://plaqueminesassessor.azurewebsites.net/Details?parcelNumber=2623731/0
