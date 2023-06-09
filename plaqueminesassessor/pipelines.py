@@ -12,7 +12,7 @@ class PlaqueminesassessorPipeline:
     def process_item(self, item, spider):
         return item
 
-
+import psycopg2
 class SaveToPostgreSQLPipeline:
     def __init__(self):
         # Connection Details
