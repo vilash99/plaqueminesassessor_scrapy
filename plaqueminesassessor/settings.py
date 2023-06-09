@@ -62,9 +62,10 @@ CONCURRENT_REQUESTS = 1
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+ITEM_PIPELINES = {
 #    "plaqueminesassessor.pipelines.PlaqueminesassessorPipeline": 300,
-#}
+  "plaqueminesassessor.pipelines.SaveToPostgreSQLPipeline": 400,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
